@@ -104,6 +104,10 @@ void sys_yield(void);
 int sys_kill(tid_t dest, int signum);
 int sys_signal(signal_handler_t handler);
 
+/* Stéphane */
+int truncate(const char *path, off_t length);
+int ftruncate(int fd, off_t length);
+
 /* Pierre */
 struct utsname;
 struct stat;

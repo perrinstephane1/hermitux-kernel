@@ -101,6 +101,10 @@ extern uint64_t tux_start_address;
 #define UHYVE_PORT_NEWFSTATAT   0x532
 #define UHYVE_PORT_RENAME 		0x533
 
+/* Ajouts Stéphane */
+#define UHYVE_PORT_FTRUNCATE    0x534
+#define UHYVE_PORT_TRUNCATE     0x535
+
 // Networkports
 #define UHYVE_PORT_NETINFO             0x505
 #define UHYVE_PORT_NETWRITE            0x506
